@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toyvm"
+version = "0.1.0"
+description = "A tiny, educational virtual machine with assembler and CLI"
+authors = [{ name = "You" }]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+toyvm = "toyvm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"toyvm" = []

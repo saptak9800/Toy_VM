@@ -1,0 +1,3 @@
+PUSH "Hello, Toy VM!"
+PRINT
+HALT

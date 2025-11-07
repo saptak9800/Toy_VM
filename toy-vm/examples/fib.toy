@@ -1,0 +1,41 @@
+; Compute Fibonacci of n (n in var n), print all terms up to n
+PUSH 10
+STORE n
+
+PUSH 0 ; a
+STORE a
+PUSH 1 ; b
+STORE b
+
+LOOP:
+LOAD n
+JZ END
+
+; print a
+LOAD a
+PRINT
+
+; t = a + b
+LOAD a
+LOAD b
+ADD
+STORE t
+
+; a = b
+LOAD b
+STORE a
+
+; b = t
+LOAD t
+STORE b
+
+; n = n - 1
+LOAD n
+PUSH 1
+SUB
+STORE n
+
+JMP LOOP
+
+END:
+HALT

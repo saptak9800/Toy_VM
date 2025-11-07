@@ -1,0 +1,14 @@
+[
+  {
+    "op": "PUSH",
+    "arg": "Hello, Toy VM!"
+  },
+  {
+    "op": "PRINT",
+    "arg": null
+  },
+  {
+    "op": "HALT",
+    "arg": null
+  }
+]
