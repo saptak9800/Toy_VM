@@ -72,7 +72,3 @@ PUSH "Hello, World!"
 PRINT
 HALT
 
-📜 License
-
-MIT License
-
