@@ -62,17 +62,7 @@ To add new functionality:
 Add new opcodes in src/toyvm/vm.py (update the dispatch table and semantics).
 
 Add corresponding assembler mnemonics in src/toyvm/assembler.py.
-
-Update the README and create new unit tests.
-
-🗂️ Project Structure
-src/
- └── toyvm/
-      ├── vm.py          # VM runtime
-      ├── assembler.py   # Assembler and loader
-      └── cli.py         # CLI entry point
-examples/                # Sample .toy programs
-tests/                   # Unit tests
+       
 
 🧪 Example
 
@@ -85,3 +75,4 @@ HALT
 📜 License
 
 MIT License
+
